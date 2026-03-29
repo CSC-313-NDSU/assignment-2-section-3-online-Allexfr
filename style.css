@@ -1,0 +1,51 @@
+body {
+    padding-top: 70px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: white;
+}
+
+.profile-img {
+    border-radius: 75%;
+    border: 5px solid white;
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+.page-section {
+    padding: 80px 0;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6610f2;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #000; 
+}
+
